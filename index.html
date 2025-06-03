@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stress Level Assessment</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+  <div class="container">
+    <button class="fullscreen-btn" id="fullscreenBtn" onclick="toggleFullscreen()" title="Toggle Fullscreen">
+      ⛶
+    </button>
+    
+    <div class="header">
+      <!-- Header content -->
+    </div>
+
+    <div class="content">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+
+      <div id="quiz"></div>
+      
+      <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <div class="loading-text">Analyzing your responses...</div>
+      </div>
+
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
